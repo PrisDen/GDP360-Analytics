@@ -1,0 +1,155 @@
+=== COMPREHENSIVE MASTER_DATA.CSV ANALYSIS ===
+📊 DATASET OVERVIEW:
+  Shape: 9,632 rows × 13 columns
+  Memory usage: 2.4 MB
+  Columns: ['Country', 'Year', 'GDP', 'GDP_per_capita', 'Population', 'Agri_%', 'Indus_%', 'Serv_%', 'Inflat
+ion_%', 'Unemployment_%', 'Country Code', 'Region', 'GDP_Anomaly_Flag']
+
+📅 TEMPORAL COVERAGE:
+  Year range: 1975 - 2024
+  Total years: 50
+  Expected years (1975-2024): 50
+  Years with data: [np.int64(1975), np.int64(1976), np.int64(1977), np.int64(1978), np.int64(1979), np.int64
+(1980), np.int64(1981), np.int64(1982), np.int64(1983), np.int64(1984), np.int64(1985), np.int64(1986), np.i
+nt64(1987), np.int64(1988), np.int64(1989), np.int64(1990), np.int64(1991), np.int64(1992), np.int64(1993),
+np.int64(1994), np.int64(1995), np.int64(1996), np.int64(1997), np.int64(1998), np.int64(1999), np.int64(200
+0), np.int64(2001), np.int64(2002), np.int64(2003), np.int64(2004), np.int64(2005), np.int64(2006), np.int64
+(2007), np.int64(2008), np.int64(2009), np.int64(2010), np.int64(2011), np.int64(2012), np.int64(2013), np.i
+nt64(2014), np.int64(2015), np.int64(2016), np.int64(2017), np.int64(2018), np.int64(2019), np.int64(2020),
+np.int64(2021), np.int64(2022), np.int64(2023), np.int64(2024)]
+
+🌍 GEOGRAPHIC COVERAGE:
+  Total countries: 196
+  Countries with GDP data: 191
+  Countries with region assignment: 180
+
+🗺️ REGIONAL DISTRIBUTION:
+  Total regions: 7
+    Sub-Saharan Africa: 2,350 records (24.4%)
+    Europe & Central Asia: 2,323 records (24.1%)
+    Latin America & Caribbean: 1,650 records (17.1%)
+    East Asia & Pacific: 1,162 records (12.1%)
+    Middle East & North Africa: 900 records (9.3%)
+    South Asia: 400 records (4.2%)
+    North America: 100 records (1.0%)
+
+💰 GDP DATA QUALITY:
+  GDP records: 8,775 (91.1%)
+  GDP range: $3,669,420 - $29,184,900,000,000
+  GDP mean: $249,233,004,376
+  GDP median: $14,006,496,614
+
+👥 POPULATION DATA:
+  Population records: 9,585 (99.5%)
+  Population range: 6,117 - 1,450,935,791
+  Population mean: 31,698,232
+
+💵 GDP PER CAPITA:
+  GDP per capita records: 8,781 (91.2%)
+  GDP per capita range: $23 - $207,974
+  GDP per capita mean: $9,404
+
+🏭 SECTORAL DATA COVERAGE:
+  Agri_%: 2,078 records (21.6%)
+  Indus_%: 7,472 records (77.6%)
+  Serv_%: 7,187 records (74.6%)
+
+📈 ECONOMIC INDICATORS:
+  Inflation_%: 7,451 records (77.4%)
+  Unemployment_%: 4,370 records (45.4%)
+
+🚨 ANOMALY DETECTION:
+  GDP anomalies detected: 8
+  Anomaly details:
+    Ethiopia (2022): $126,773,000,000
+    Guinea (2024): $25,334,307,879
+    Guyana (2023): $16,918,503,597
+    Guyana (2024): $24,835,899,826
+    Kyrgyz Republic (2024): $17,478,259,659
+    Sao Tome and Principe (2024): $764,274,043
+    Syrian Arab Republic (2011): $67,539,428,159
+    Zimbabwe (2017): $51,074,726,484
+
+🏛️ COUNTRY CODE ANALYSIS:
+  Country codes present: 9,632
+  Sample country codes: ['AFG', 'ALB', 'ALG', 'ANG', 'ANT', 'ARG', 'ARM', 'AUS', 'AZE', 'BAH']
+
+📊 DETAILED DATA QUALITY ANALYSIS:
+  Missing data by column:
+    Country             :      0 missing (  0.0%)
+    Year                :      0 missing (  0.0%)
+    GDP                 :    857 missing (  8.9%)
+    GDP_per_capita      :    851 missing (  8.8%)
+    Population          :     47 missing (  0.5%)
+    Agri_%              :  7,554 missing ( 78.4%)
+    Indus_%             :  2,160 missing ( 22.4%)
+    Serv_%              :  2,445 missing ( 25.4%)
+    Inflation_%         :  2,181 missing ( 22.6%)
+    Unemployment_%      :  5,262 missing ( 54.6%)
+    Country Code        :      0 missing (  0.0%)
+    Region              :    747 missing (  7.8%)
+    GDP_Anomaly_Flag    :      0 missing (  0.0%)
+
+🌍 COUNTRY-SPECIFIC ANALYSIS:
+  Countries with most records:
+    Afghanistan: 50 records
+    Lebanon: 50 records
+    New Zealand: 50 records
+    Nicaragua: 50 records
+    Niger: 50 records
+    Nigeria: 50 records
+    North Macedonia: 50 records
+    Norway: 50 records
+    Oman: 50 records
+    Pakistan: 50 records
+  Countries with least records:
+    Ghana: 50 records
+    Greece: 50 records
+    Grenada: 50 records
+    Guatemala: 50 records
+    Zimbabwe: 50 records
+    West Bank and Gaza: 35 records
+    Turkey: 12 records
+    Macedonia, FYR: 12 records
+    Vietnam: 12 records
+    Czech Republic: 11 records
+
+📈 TIME SERIES ANALYSIS:
+  GDP coverage by year:
+    1975: 139 countries with GDP data
+    1980: 152 countries with GDP data
+    1985: 155 countries with GDP data
+    1990: 178 countries with GDP data
+    1995: 185 countries with GDP data
+    2000: 188 countries with GDP data
+    2005: 189 countries with GDP data
+    2010: 190 countries with GDP data
+    2015: 188 countries with GDP data
+    2020: 186 countries with GDP data
+    2024: 174 countries with GDP data
+
+🏆 TOP ECONOMIES ANALYSIS (2024):
+   1. United States       : $  29.2T (North America)
+   2. China               : $  18.7T (East Asia & Pacific)
+   3. Germany             : $   4.7T (Europe & Central Asia)
+   4. Japan               : $   4.0T (East Asia & Pacific)
+   5. India               : $   3.9T (South Asia)
+   6. United Kingdom      : $   3.6T (Europe & Central Asia)
+   7. France              : $   3.2T (Europe & Central Asia)
+   8. Italy               : $   2.4T (Europe & Central Asia)
+   9. Canada              : $   2.2T (North America)
+  10. Brazil              : $   2.2T (Latin America & Caribbean)
+
+📊 DATA CONSISTENCY CHECKS:
+  Records with GDP but no GDP per capita: 0
+  Negative GDP values: 0
+  Extremely high GDP values (>$1Q): 0
+
+🎯 DATA QUALITY SUMMARY:
+  ✅ Complete year range: 1975-2024 (50 years)
+  ✅ Clean country data: 196 actual countries
+  ✅ High GDP coverage: 91.1%
+  ✅ Good region coverage: 92.2%
+  ✅ Anomalies detected: 8 statistical outliers
+  ✅ No negative GDP values: 0
+  ✅ No extremely high values: 0
